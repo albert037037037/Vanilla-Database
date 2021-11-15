@@ -1,0 +1,20 @@
+time(sec),throughput(txs),avg_latency(ms),min(ms),max(ms),25th_lat(ms),median_lat(ms),75th_lat(ms)
+5,11365,0,0,7,0,0,0
+10,11301,0,0,10,0,0,0
+UPDATE_ITEM_PRICE: ABORTED
+15,11177,0,0,4,0,0,1
+UPDATE_ITEM_PRICE: ABORTED
+20,11256,0,0,3,0,0,0
+25,11303,0,0,3,0,0,0
+UPDATE_ITEM_PRICE: ABORTED
+30,11272,0,0,3,0,0,0
+35,11326,0,0,5,0,0,0
+40,11205,0,0,7,0,0,0
+45,11343,0,0,3,0,0,0
+50,11269,0,0,2,0,0,0
+55,11402,0,0,2,0,0,0
+60,11294,0,0,2,0,0,0
+
+UPDATE_ITEM_PRICE - committed: 101616, aborted: 3, avg latency: 0 ms
+READ_ITEM - committed: 33897, aborted: 0, avg latency: 0 ms
+TOTAL - committed: 135513, aborted: 3, avg latency: 1 ms

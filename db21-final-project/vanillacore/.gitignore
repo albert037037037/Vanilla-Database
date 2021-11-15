@@ -1,0 +1,12 @@
+
+### Eclipse ###
+.settings/
+.metadata/
+.recommenders
+.classpath
+.project
+target/
+
+
+### Others ###
+design

@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.vanilladb</groupId>
+  <artifactId>core-patch</artifactId>
+  <version>0.4.1-2021-spring-as5</version>
+  <name>core-patch</name>
+  
+  <repositories>
+		<repository>
+			<id>local-repo</id>
+			<name>LocalRepository</name>
+			<url>file://${project.basedir}/repo</url>
+		</repository>
+	</repositories>
+
+  <dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.smacke</groupId>
+			<artifactId>jaydio</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.vanilladb</groupId>
+			<artifactId>core</artifactId>
+			<version>0.4.1-course-20210405-v2</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Use JDK 1.8, instead of the default one (JDK 1.5) -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

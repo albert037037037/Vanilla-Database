@@ -1,0 +1,7 @@
+/**/target/
+/**/.settings/
+
+# Eclipse project
+/**/.classpath
+/**/.project
+/.metadata/

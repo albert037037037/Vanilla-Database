@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="insertTxNode"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="insertTxNode"/>
+			<item value="replicaTask"/>
+			<item value="sinkNode"/>
+			<item value="isFul"/>
+			<item value="respos"/>
+			<item value="resois"/>
+			<item value="isDoingReplication"/>
+			<item value="doingReplication"/>
+			<item value="hotRecordKeys"/>
+			<item value="hot"/>
+			<item value=" "/>
+			<item value="insertReplicationNode"/>
+			<item value="insertReplicationNodeAndEdges"/>
+			<item value="loadPerPart"/>
+			<item value="store"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="913"/>
+		<item key="DIALOG_Y_ORIGIN" value="297"/>
+		<item key="DIALOG_WIDTH" value="292"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="455"/>
+		<item key="DIALOG_Y_ORIGIN" value="287"/>
+	</section>
+</section>

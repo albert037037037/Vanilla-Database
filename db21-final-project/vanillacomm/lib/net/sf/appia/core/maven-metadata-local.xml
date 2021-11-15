@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.sf.appia</groupId>
+  <artifactId>core</artifactId>
+  <versioning>
+    <release>4.1.2-vanilladb-2021-final-proj</release>
+    <versions>
+      <version>4.1.2-vanilladb-2021-final-proj</version>
+    </versions>
+    <lastUpdated>20210529062056</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,11 @@
+# of txns (including aborted) during benchmark period: 278416
+MICRO_TXN - committed: 278019, aborted: 397, avg latency: 0 ms
+TOTAL - committed: 278019, aborted: 397, avg latency: 1 ms
+
+Rte 4
+Buffer pool size 10240
+Rw_tx_rate 0.3
+Write ratio in read write 0.5
+Total read count 10
+Local hot count 1
+Conflict rate 0.01

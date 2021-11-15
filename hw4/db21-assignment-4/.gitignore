@@ -1,0 +1,9 @@
+/**/target/
+/**/.settings/
+benchmark/
+/**/.DS_Store
+
+# Eclipse project
+/**/.classpath
+/**/.project
+/.metadata/
